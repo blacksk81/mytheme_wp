@@ -32,8 +32,6 @@ get_footer(); // llama al contenido de footer.php<br>
 2.2 HOJA HEADER.PHP<br>
 	Todo el contenido de las la cabezera desde doctype hasta el /head <br>
 
-	en la hoja index pegaras todo el contenido dentro de las etiquetas body.<br>
-
 	<b> <?php wp_head(); ?> </b> tambien tenemos que agregar el head para llamar a las funciones nativas del head de wordpress
 	<meta name="description" content="<? bloginfo ('description')?>"> agrega la descripcion del sitio de wordpress
 
@@ -43,7 +41,8 @@ get_footer(); // llama al contenido de footer.php<br>
 	<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
 2.3 HOJA FOOTER.PHP<br>
-	Todo lo que va1s  poner en el pie de pagina
+	Todo lo que va1s  poner en el pie de pagina <br>
+	y antes de la etiqueta body pegas wp_footer();
 
 2.4 HOJA FUNCTIONS.PHP<br>
 	Todas las funciones importante de wordpress y todos lo que vayamos a crear en nuestros custom type y fields entre otros:
