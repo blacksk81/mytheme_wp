@@ -24,13 +24,13 @@ Html -> wordpress -> custom field
 
 
 2.1 HOLJA INDEX.PHP	<br>
-get_header(); // llama al contenido del header.php
- /* todo el contenido del body*/
-get_footer(); // llama al contenido de footer.php
+get_header(); // llama al contenido del header.php<br>
+ /* todo el contenido del body*/<br>
+get_footer(); // llama al contenido de footer.php<br>
 	
 
 2.2 HOJA HEADER.PHP<br>
-	Todo el contenido de las la cabezera desde doctype hasta el /head< <br>
+	Todo el contenido de las la cabezera desde doctype hasta el /head <br>
 
 	en la hoja index pegaras todo el contenido dentro de las etiquetas body.<br>
 
