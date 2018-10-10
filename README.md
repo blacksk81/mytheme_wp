@@ -1,7 +1,18 @@
-Documentacion para crear tema de wordpress.
-Por Luisbernal.com.ve
+<h1>Documentacion para crear tema de wordpress.<br>
+Por Luisbernal.com.ve</h1>
 
-Html -> wordpress -> custom field
+<h2>Html -> wordpress -> custom field</h2>
+
+<ul>
+	<li>
+		<h2>Cargar primero la plantila a nuestro wordpress</h2>
+		<h2>Con ACF poder personalisas los campos y agregas mas..</h2>
+	</li>
+</ul>
+
+
+
+
 
 <b>1.-</b> Maquetar tu pagina web en html con el framework que desee o puees incluso bajarte una plantilla y integrarla a tu wordpres para usarlo como CMS.
 	pegaras tu web en la siguiente ruta /public_html/wp-content/themes/ pegaras tu carpeta hay, y luego tiene que segmentar el contenido de tu web.<br>
