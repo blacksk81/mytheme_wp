@@ -1,10 +1,4 @@
-Documentacion para crear tema de wordpress.
-Por Luisbernal.com.ve
 
-Html -> wordpress -> custom field
-
-1.- Maquetar tu pagina web en html con el framework que desee o puees incluso bajarte una plantilla y integrarla a tu wordpres para usarlo como CMS.
-	pegaras tu web en la siguiente ruta /public_html/wp-content/themes/ pegaras tu carpeta hay, y luego tiene que segmentar el contenido de tu web.
 
 2.- dentro de tu plantilla tienes que crear una hoja de estilo 	y otras mas <BR>
 <BR>
@@ -100,6 +94,31 @@ Html -> wordpress -> custom field
 	   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
     </head>
     <body>
-    	<h1>hola</h1>
+    	<h1>Documentacion para crear tema de wordpress. <br>
+		Por Luisbernal.com.ve</h1>
+		<p>Html -> wordpress -> custom field</p>
+		<ul>
+			<li>1.- Maquetar tu pagina web en html con el framework que desee o puees incluso bajarte una plantilla y integrarla a tu wordpres para usarlo como CMS.
+	pegaras tu web en la siguiente ruta /public_html/wp-content/themes/ pegaras tu carpeta hay, y luego tiene que segmentar el contenido de tu web.</li>
+			<li>2.- dentro de tu plantilla tienes que crear una hoja de estilo 	y otras mas <BR>
+				<BR>
+				CSS<BR>
+				&nbsp .STYLE<BR>
+				JS<BR>
+				&nbsp .JS<BR>
+				IMG<BR>
+				&nbsp .IMAGENS<BR>
+				INDEX.PHP<BR>
+				HEADER.PHP<BR>
+				FOOTER.PHP<BR>
+				FONCTIONS.PHP<BR>
+				STYLE.CSS <BR>
+				SCREENSHOT.PNG<BR>
+			</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
     </body>
   </html>
