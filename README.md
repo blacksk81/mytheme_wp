@@ -103,6 +103,7 @@ get_footer(); // llama al contenido de footer.php<br>
 
 	PD; LAS IMAGENES DESTACADAS SON SE USA PARA COMPARTIR IMAGENES EN REDES SOCIALES <br>
 
-	<b>PARA AGREGAR CAMPOS PERSONALIZADOS YA HAY QUE DOCUMENTARSE COMO EL PLUGINS https://www.advancedcustomfields.com/ </b>
+	<b>PARA AGREGAR CAMPOS PERSONALIZADOS YA HAY QUE DOCUMENTARSE COMO EL PLUGINS https://www.advancedcustomfields.com/ <br> si quieres la version PRO del plugins comunicate contigo. </b>
+
 
 
