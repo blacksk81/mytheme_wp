@@ -72,25 +72,6 @@ get_footer(); // llama al contenido de footer.php<br>
 	add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 2.5 HOJA STYLE
 	Esa hoja de estilo la creas con esto:
 
@@ -111,3 +92,4 @@ get_footer(); // llama al contenido de footer.php<br>
 	*/
 
 
+<b>3.-</b>PARA CREAR LA FUNCION DEL MENU SIGUA ESTE LINK  <b>https://github.com/wp-bootstrap/wp-bootstrap-navwalker</b>
