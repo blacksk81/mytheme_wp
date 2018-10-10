@@ -5,7 +5,7 @@ Por Luisbernal.com.ve</h1>
 
 <ul>
 	<li><h2>Cargar primero la plantila a nuestro wordpress</h2></li>
-	<li><h2>Con ACF poder personalisas los campos y agregas mas..</h2></li>
+	<li><h2>Para dejarla lista para Personalizar campos con Acf.</h2></li>
 </ul>
 
 
