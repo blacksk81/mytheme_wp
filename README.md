@@ -23,23 +23,24 @@ Html -> wordpress -> custom field
 
 
 
-2.1 HOLJA INDEX	
-	en la hoja index pegaras todo el contenido dentro de las etiquetas body.
+2.1 HOLJA INDEX	<br>
+	en la hoja index pegaras todo el contenido dentro de las etiquetas body.<br>
 
 	<b> <?php wp_head(); ?> </b> tambien tenemos que agregar el head para llamar a las funciones nativas del head de wordpress
 	<meta name="description" content="<? bloginfo ('description')?>"> agrega la descripcion del sitio de wordpress
 
-		Y OTRAS NECESARIAS
-			<meta charset="<?php bloginfo( 'charset' ); ?>" />
-			<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+	Y OTRAS NECESARIAS
 
-2.2 HOJA HEADER
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+
+2.2 HOJA HEADER<br>
 	Todo el contenido de las la cabezera desde doctype hasta el /head
 
-2.3 HOJA FOOTER
+2.3 HOJA FOOTER<br>
 	Todo lo que vas  poner en el pie de pagina
 
-2.4 HOJA FUNCTIONS
+2.4 HOJA FUNCTIONS<br>
 	Todas las funciones importante de wordpress y todos lo que vayamos a crear en nuestros custom type y fields entre otros:
 
 	para agregar las clases de nuestos css y js de nuestra plantilla.
