@@ -24,31 +24,31 @@ Html -> wordpress -> custom field
 
 
 2.1 HOLJA INDEX.PHP	<br>
-&nbsp <?php get_header();?> // llama al contenido del header.php
-&nbsp /* todo el contenido del body*/
-&nbsp <?php get_footer(); ?> // llama al contenido de footer.php
+<?php get_header();?> // llama al contenido del header.php
+ /* todo el contenido del body*/
+<?php get_footer(); ?> // llama al contenido de footer.php
 	
 
 2.2 HOJA HEADER.PHP<br>
-&nbsp	Todo el contenido de las la cabezera desde doctype hasta el /head< <br>
+	Todo el contenido de las la cabezera desde doctype hasta el /head< <br>
 
-&nbsp	en la hoja index pegaras todo el contenido dentro de las etiquetas body.<br>
+	en la hoja index pegaras todo el contenido dentro de las etiquetas body.<br>
 
 	<b> <?php wp_head(); ?> </b> tambien tenemos que agregar el head para llamar a las funciones nativas del head de wordpress
 	<meta name="description" content="<? bloginfo ('description')?>"> agrega la descripcion del sitio de wordpress
 
-&nbsp	Y OTRAS NECESARIAS
+	Y OTRAS NECESARIAS
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
 2.3 HOJA FOOTER.PHP<br>
-&nbsp	Todo lo que va1s  poner en el pie de pagina
+	Todo lo que va1s  poner en el pie de pagina
 
 2.4 HOJA FUNCTIONS.PHP<br>
-&nbsp	Todas las funciones importante de wordpress y todos lo que vayamos a crear en nuestros custom type y fields entre otros:
+	Todas las funciones importante de wordpress y todos lo que vayamos a crear en nuestros custom type y fields entre otros:
 
-&nbsp	para agregar las clases de nuestos css y js de nuestra plantilla.
+	para agregar las clases de nuestos css y js de nuestra plantilla.
 
 
 
