@@ -24,9 +24,9 @@ Html -> wordpress -> custom field
 
 
 2.1 HOLJA INDEX.PHP	<br>
-// <?php get_header();?> // llama al contenido del header.php
+get_header(); // llama al contenido del header.php
  /* todo el contenido del body*/
-<?php get_footer(); ?> // llama al contenido de footer.php
+get_footer(); // llama al contenido de footer.php
 	
 
 2.2 HOJA HEADER.PHP<br>
