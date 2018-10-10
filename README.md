@@ -101,6 +101,5 @@ Html -> wordpress -> custom field
     </head>
     <body>
     	<h1>hola</h1>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
     </body>
   </html>
