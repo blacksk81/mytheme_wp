@@ -93,3 +93,16 @@ get_footer(); // llama al contenido de footer.php<br>
 
 
 <b>3.-</b>PARA CREAR LA FUNCION DEL MENU SIGUA ESTE LINK  <b>https://github.com/wp-bootstrap/wp-bootstrap-navwalker</b>
+
+<b>4.-</b>Mostrar contenido de las paginas de wordpress en las plantillas
+
+	if (have_posts()) : while (have_posts()) : the_post(); <br>
+		php the_title(); // toman el titulo de la pagina <br>
+		php the_content(); // toman el contenido de textaeres <br>
+	php endwhile; endif; <br>
+
+	PD; LAS IMAGENES DESTACADAS SON SE USA PARA COMPARTIR IMAGENES EN REDES SOCIALES <br>
+
+	<b>PARA AGREGAR CAMPOS PERSONALIZADOS YA HAY QUE DOCUMENTARSE COMO EL PLUGINS https://www.advancedcustomfields.com/ </b>
+
+
