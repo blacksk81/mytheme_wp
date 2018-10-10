@@ -4,10 +4,8 @@ Por Luisbernal.com.ve</h1>
 <h2>Html -> wordpress -> custom field</h2>
 
 <ul>
-	<li>
-		<h2>Cargar primero la plantila a nuestro wordpress</h2>
-		<h2>Con ACF poder personalisas los campos y agregas mas..</h2>
-	</li>
+	<li><h2>Cargar primero la plantila a nuestro wordpress</h2></li>
+	<li><h2>Con ACF poder personalisas los campos y agregas mas..</h2></li>
 </ul>
 
 
