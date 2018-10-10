@@ -99,7 +99,7 @@ get_footer(); // llama al contenido de footer.php<br>
 	if (have_posts()) : while (have_posts()) : the_post(); 
 		php the_title(); // toman el titulo de la pagina 
 		php the_content(); // toman el contenido de textaeres 
-		php the excerpt(); // muestra un extrapto del textarea
+		php the_excerpt(); // muestra un extrapto del textarea
 		php the_post_thumbnail(); // llama a la imagen destacada
 			tambien al thumbnail se le puede pasar un array para agregarle a una clases:
 
