@@ -96,14 +96,18 @@ get_footer(); // llama al contenido de footer.php<br>
 
 <b>4.-</b>Mostrar contenido de las paginas de wordpress en las plantillas
 
-	if (have_posts()) : while (have_posts()) : the_post(); <br>
-		php the_title(); // toman el titulo de la pagina <br>
-		php the_content(); // toman el contenido de textaeres <br>
-	php endwhile; endif; <br>
+	if (have_posts()) : while (have_posts()) : the_post(); 
+		php the_title(); // toman el titulo de la pagina 
+		php the_content(); // toman el contenido de textaeres 
+	php endwhile; endif; 
 
-	PD; LAS IMAGENES DESTACADAS SON SE USA PARA COMPARTIR IMAGENES EN REDES SOCIALES <br>
 
-	<b>PARA AGREGAR CAMPOS PERSONALIZADOS YA HAY QUE DOCUMENTARSE COMO EL PLUGINS https://www.advancedcustomfields.com/ <br> si quieres la version PRO del plugins comunicate contigo. </b>
+<p>PD; LAS IMAGENES DESTACADAS SON SE USA PARA COMPARTIR IMAGENES EN REDES SOCIALES <br>
+<b>PARA AGREGAR CAMPOS PERSONALIZADOS YA HAY QUE DOCUMENTARSE COMO EL PLUGINS https://www.advancedcustomfields.com/ <br> si quieres la version PRO del plugins comunicate contigo. </b>
+</p>
+	
+
+	
 
 
 
