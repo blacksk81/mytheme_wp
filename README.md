@@ -3,10 +3,9 @@ Por Luisbernal.com.ve
 
 Html -> wordpress -> custom field
 
-1.- Maquetar tu pagina web en html con el framework que desee o puees incluso bajarte una plantilla y integrarla a tu wordpres para usarlo como CMS.
+<b>1.-</b> Maquetar tu pagina web en html con el framework que desee o puees incluso bajarte una plantilla y integrarla a tu wordpres para usarlo como CMS.
 	pegaras tu web en la siguiente ruta /public_html/wp-content/themes/ pegaras tu carpeta hay, y luego tiene que segmentar el contenido de tu web.
-
-2.- dentro de tu plantilla tienes que crear una hoja de estilo 	y otras mas <BR>
+<b>2.-</b> dentro de tu plantilla tienes que crear una hoja de estilo 	y otras mas <BR>
 <BR>
 		CSS<BR>
 			.STYLE<BR>
@@ -23,28 +22,28 @@ Html -> wordpress -> custom field
 
 
 
-2.1 HOLJA INDEX.PHP	<br>
+2.1 <b>HOLJA INDEX.PHP </b>	<br>
 get_header(); // llama al contenido del header.php<br>
  /* todo el contenido del body*/<br>
 get_footer(); // llama al contenido de footer.php<br>
 	
 
-2.2 HOJA HEADER.PHP<br>
+2.2 <b>HOJA HEADER.PHP</b><br> 
 	Todo el contenido de las la cabezera desde doctype hasta el /head <br>
 
 	<b> <?php wp_head(); ?> </b> tambien tenemos que agregar el head para llamar a las funciones nativas del head de wordpress
 	<meta name="description" content="<? bloginfo ('description')?>"> agrega la descripcion del sitio de wordpress
 
-	Y OTRAS NECESARIAS
+	Y OTRAS NECESARIAS, APARTE DE LAS DEMAS NECESARIAS.
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
-2.3 HOJA FOOTER.PHP<br>
+2.3 <b>HOJA FOOTER.PHP</b><br> 
 	Todo lo que va1s  poner en el pie de pagina <br>
 	y antes de la etiqueta body pegas wp_footer();
 
-2.4 HOJA FUNCTIONS.PHP<br>
+2.4 <b>HOJA FUNCTIONS.PHP</b><br> 
 	Todas las funciones importante de wordpress y todos lo que vayamos a crear en nuestros custom type y fields entre otros:
 
 	para agregar las clases de nuestos css y js de nuestra plantilla.
