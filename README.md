@@ -1,1 +1,1 @@
-"# mytheme_wp"  
+Documentacion para crear tema de wordpress.
