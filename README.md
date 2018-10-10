@@ -6,19 +6,19 @@ Html -> wordpress -> custom field
 <b>1.-</b> Maquetar tu pagina web en html con el framework que desee o puees incluso bajarte una plantilla y integrarla a tu wordpres para usarlo como CMS.
 	pegaras tu web en la siguiente ruta /public_html/wp-content/themes/ pegaras tu carpeta hay, y luego tiene que segmentar el contenido de tu web.<br>
 <b>2.-</b> dentro de tu plantilla tienes que crear una hoja de estilo 	y otras mas <br>
-file->
+
 		folder->   CSS<BR>
-			file->.STYLE<BR>
+			file->     .STYLE<BR>
 		folder->   JS<BR>
-			file->.JS<BR>
+			file->     .JS<BR>
 		folder->   IMG<BR>
-			file->.IMAGENS<BR>
-		file->INDEX.PHP<BR>
-		file->HEADER.PHP<BR>
-		file->FOOTER.PHP<BR>
-		file->FONCTIONS.PHP<BR>
-		file->STYLE.CSS 
-		file->SCREENSHOT.PNG
+			file->     .IMAGENS<BR>
+		file->     INDEX.PHP<BR>
+		file->     HEADER.PHP<BR>
+		file->     FOOTER.PHP<BR>
+		file->     FONCTIONS.PHP<BR>
+		file->     STYLE.CSS 
+		file->     SCREENSHOT.PNG
 
 
 
