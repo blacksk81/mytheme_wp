@@ -51,7 +51,7 @@ get_footer(); // llama al contenido de footer.php<br>
 
 
 	// Vincular estilo 
-	get_template_directory_uri  nos ubica en nuetro directorio raiz para ubicar la clase que deseamos llamas
+	get_template_directory_uri();  nos ubica en nuetro directorio raiz para ubicar la clase que deseamos llamas
 
 
 	function wpdocs_theme_name_style() {
