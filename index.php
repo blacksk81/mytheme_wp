@@ -1,5 +1,15 @@
 <?php get_header();?>
 
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Tema de Inicio basico de wordpress con framework Bootstrap v3.3.7</h1>
+    </div>
+  </div>
+</div>
+
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -33,22 +43,6 @@
 </div>
 
 
-
-<div class="coontainer-fluid">
-  <div class="container">
-    <div class="row" align="center">
-      <h2 class="title_text">Tituo de los texto</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-      <p class="text1"><?php the_field( 'text1' ); ?></p>  
-      </div>
-      <div class="col-md-6 col-sm-12">
-      <p class="text2"><?php the_field( 'text2' ); ?></p> 
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
