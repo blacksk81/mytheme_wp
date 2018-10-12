@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php get_header('page') //template name: Inicio?>
 
 
 <div class="container">
