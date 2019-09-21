@@ -18,6 +18,9 @@
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
           Launch demo modal
         </button>
+      
+      <?php echo get_template_directory_uri(); ?>
+      <!-- tura de archivod l themate..-->
 
         <!-- Modal -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
